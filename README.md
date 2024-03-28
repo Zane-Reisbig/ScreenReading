@@ -20,6 +20,6 @@
     lookFor: list[str] | str, rect: tuple, tessPath: str, trys: int = 5
   ) -> tuple[bool, int]
 </pre>
-  Blocks execution until string/string[] is/are found
-      if string[] returns (True|False, indexFound|None)
-      else returns True|False
+  Blocks execution until string/string[] is/are found <\br>
+      - if string[] returns (True|False, indexFound|None)
+      - else returns True|False
